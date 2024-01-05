@@ -1,6 +1,5 @@
 # Haley Khuu Inzunza's Portfolio Website
-Visit the site here:
-haleeei.github.io
+### [haleeei.github.io](haleeei.github.io)
 
 ## Made Using:
 - React (Next.js)
