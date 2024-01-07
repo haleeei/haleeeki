@@ -5,10 +5,6 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineNewspaper } from "react-icons/hi2";
 
-
-
-
-
 function Home () {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -18,7 +14,7 @@ function Home () {
       </div>
       <div className='flex flex-row items-center justify-center gap-10 mt-8'>
       <img src={pfp} className="w-[25%] hover:scale-105 transition" alt="Haley Icon" draggable={false}/>
-      <div>
+      <div className=''>
         <div className="text-3xl text-left leading-relaxed font-UnbuntoMono">
             Hi! I'm Haley Inzunza, a software developer. I recently
             <br/>

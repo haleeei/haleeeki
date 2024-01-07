@@ -4,12 +4,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Home from './components/home.js';
+import Experience from './components/experience.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Navbar/> */}
+
     <Home/> 
+    {/* Put new components here */}
+    <Experience/>
+
   </React.StrictMode>
 );
 
