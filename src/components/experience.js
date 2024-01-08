@@ -22,7 +22,7 @@ function Experience() {
                     <div className=''>
                         <div className='flex flex-row items-center justify-center gap-10 mt-8'>
                             <img src={SAIC} className="w-[25%] hover:scale-105 transition" alt="SAIC Icon" draggable={false}/>
-                            <div className="text-2xl text-left leading-relaxed font-UnbuntoMono">
+                            <div className="bg-[#D5CDBA] text-2xl text-left leading-relaxed font-UnbuntoMono border-8 border-double border-green-900 p-5 rounded-xl shadow-2xl">
                                 <strong>VISUALIZATION INTERN - MULTIMEDIA & GAME PROGRAMMING</strong>
                                 <br/>
                                 Here I contributed extensively to the development of a    
@@ -43,7 +43,6 @@ function Experience() {
                              </div>
                         </div>
                         <div className='flex flex-row items-center justify-center gap-10 mt-8'>
-                            <img src={UCI} className="w-[25%] hover:scale-105 transition" alt="UCI Icon" draggable={false}/>
                             <div className="text-2xl text-left leading-relaxed font-UnbuntoMono">
                                 <strong> HEAD UNDERGRADUATE TA - DATA STRUCTURES & ALGORITHMS</strong>
                                 <br/>
@@ -68,6 +67,7 @@ function Experience() {
                                 academically.
 
                              </div>
+                            <img src={UCI} className="w-[25%] hover:scale-105 transition" alt="UCI Icon" draggable={false}/>
                         </div>
                         <div className='flex flex-row items-center justify-center gap-10 mt-8'>
                             <img src={UCI} className="w-[25%] hover:scale-105 transition" alt="UCI Icon" draggable={false}/>
