@@ -22,7 +22,7 @@ function Experience() {
                     <div className=''>
                         <div className='flex flex-row items-center justify-center gap-10 mt-8 '>
                             <img src={SAIC} className="w-[25%] hover:scale-105 transition" alt="SAIC Icon" draggable={false}/>
-                            <div className=" text-2xl text-left leading-relaxed font-UnbuntoMono bg-[#E7FFDF] border-8 border-double border-green-900 p-5 rounded-xl shadow-2xl">
+                            <div className=" text-2xl text-left leading-relaxed font-UnbuntoMono bg-[#DFF9D8] border-8 border-double border-green-900 p-5 rounded-xl shadow-2xl">
                                 <strong>VISUALIZATION INTERN - MULTIMEDIA & GAME PROGRAMMING</strong>
                                 <br/>
                                 Here I contributed extensively to the development of a    
