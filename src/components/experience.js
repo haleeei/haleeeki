@@ -72,7 +72,7 @@ function Experience() {
                         <div className='flex flex-row items-center justify-center gap-10 mt-8'>
                             <img src={UCI} className="w-[25%] hover:scale-105 transition" alt="UCI Icon" draggable={false}/>
                             <div className="text-2xl text-left leading-relaxed font-UnbuntoMono">
-                                <strong>UNDERGRAD TA - DESIGN & ANALYSIS OF ALGORITHMS</strong>
+                                <strong>UNDERGRADUATE TA - DESIGN & ANALYSIS OF ALGORITHMS</strong>
                                 <br/>
                                 Here I worked as an Undergraduate TA for the Design 
                                 <br/>
