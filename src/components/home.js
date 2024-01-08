@@ -22,11 +22,7 @@ function Home () {
             <br/>
             where I delved into  various technical domains like AI, Computer
             <br/>
-            Vision, and Game Development. My technical skill set includes
-            <br/>
-            C++, Python, C, and Unreal Engine alongside several
-            <br/>
-            other languages and technologies. Passionate about creating
+            Vision, and Game Development. Passionate about creating
             <br/>
             innovative solutions, I  thrive on challenges and explore
             <br/>
