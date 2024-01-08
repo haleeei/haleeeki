@@ -7,7 +7,7 @@ import { HiOutlineNewspaper } from "react-icons/hi2";
 
 function Home () {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center w-full">
       <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-0">
         <p>Haley Khuu Inzunza</p>
         <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
