@@ -4,6 +4,7 @@ import resume from '../assets/Inzunza_Haley_2024_Resume.pdf'
 import { FaLinkedin } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineNewspaper } from "react-icons/hi2";
+import { SlArrowDown } from "react-icons/sl";
 
 function Home () {
   return (
@@ -44,7 +45,8 @@ function Home () {
         </div>
       </div>
       </div> 
-      
+      <SlArrowDown size={60} className='text-green-900  transition animate-bounce'/>
+
     </div>
   );
 }
