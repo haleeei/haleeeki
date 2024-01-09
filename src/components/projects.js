@@ -1,5 +1,6 @@
 import { SlArrowDown } from "react-icons/sl";
 import meshgen from '../assets/meshgenerator.gif'
+import compagnie from '../assets/WeGotCompagnie.gif'
 
 function Projects(){
     return (
@@ -35,7 +36,11 @@ function Projects(){
                     <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                         MeshLab
                     </div>
-                </div>
+            </div>
+            <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
+                <strong>We Got Compagnie!</strong>
+            </div>
+            <img src={compagnie} className="w-[55%] hover:scale-105 transition border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
 
 
         </div>
