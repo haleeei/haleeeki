@@ -12,7 +12,7 @@ function Projects(){
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>3D Mesh Generator</strong>
             </div>
-            <img src={meshgen} className="w-[55%] hover:scale-105 transition border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
+            <img src={meshgen} className="w-[55%] border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
                 Takes in a collection of structured light scans of an 
                 <br/> 
@@ -40,8 +40,27 @@ function Projects(){
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>We Got Compagnie!</strong>
             </div>
-            <img src={compagnie} className="w-[55%] hover:scale-105 transition border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
-
+            <div className="border-8 border-black rounded-xl">
+                <iframe width="800" height="448" src="https://www.youtube.com/embed/QRIkhvTj6-4?si=tt__bVifpxvmfvOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+                Winner of IEEE's 2023 Gamesig Student Showcase Special 
+                <br/> 
+                Recognition Award for Most Innovative Audio and User Interface
+                <br/>
+                and SGDA's Mini-grant for 2023's Student Games Showcase.
+            </div>
+            <div className='flex flex-row items-center justify-center gap-4'>
+                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                        C++
+                    </div>
+                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                        Unreal Engine
+                    </div>
+                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                        FMOD Studio
+                    </div>
+            </div>
 
         </div>
 
