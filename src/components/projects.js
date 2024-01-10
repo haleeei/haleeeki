@@ -24,7 +24,7 @@ function Projects(){
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>3D Mesh Generator</strong>
             </div>
-            <img src={meshgen} className="w-[50%] border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
+            <img src={meshgen} className="w-200 border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
                 Takes in a collection of structured light scans of an 
                 <br/> 
