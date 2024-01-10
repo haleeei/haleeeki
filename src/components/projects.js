@@ -3,6 +3,7 @@ import meshgen from '../assets/meshgenerator.gif'
 import detector from '../assets/detector.png'
 import wordle from '../assets/wordle.png'
 import { FiGithub } from "react-icons/fi";
+import { IoGameControllerOutline } from "react-icons/io5";
 
 function Projects(){
     return (
@@ -71,6 +72,9 @@ function Projects(){
                 <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     FMOD Studio
                 </div>
+                <a href="https://zxgnjason.itch.io/we-got-compagnie">
+                <IoGameControllerOutline size={60} className='text-[#22610B] active:text-gray-600 hover:scale-105 transition '/ >
+          </a>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>Minecraft Parkour AI</strong>

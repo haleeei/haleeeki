@@ -6,6 +6,7 @@ import { SlArrowDown } from "react-icons/sl";
 
 
 
+
 function Experience() {
     /*const divStyle = {
         backgroundColor: 'rgba(34, 97, 11)', // Set your desired green color here
