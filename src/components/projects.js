@@ -32,19 +32,19 @@ function Projects(){
                 single rotatable 3D mesh reconstruction of the subject.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Python
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     NumPy
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Matplotlib
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Jupyter Notebook
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     MeshLab
                 </div>
             </div>
