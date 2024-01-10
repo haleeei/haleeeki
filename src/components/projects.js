@@ -121,7 +121,7 @@ function Projects(){
                     Gradient Features
                 </div>
             </div>
-            <div className="text-center text-[#DFF9D8] text-2xl leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+            <div className="text-center text-[#DFF9D8] text-2xl leading-relaxed font-UnbuntoMono p-1 mt-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Sliding Window Classification
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
