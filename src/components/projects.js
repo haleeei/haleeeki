@@ -11,7 +11,7 @@ function Projects(){
                 <p>Personal Projects</p>
                 <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
             </div>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
                 Check out the source code for my portfolio website here!
                 <div className="flex flex-col justify-center items-center">
                     <a href="https://github.com/haleeei/haleeei.github.io">
@@ -24,7 +24,7 @@ function Projects(){
                 <strong>3D Mesh Generator</strong>
             </div>
             <img src={meshgen} className="w-[50%] border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
                 Takes in a collection of structured light scans of an 
                 <br/> 
                 object or person at different angles and produces a 
@@ -54,7 +54,7 @@ function Projects(){
             <div className="border-8 border-black rounded-xl">
                 <iframe width="775" height="434" src="https://www.youtube.com/embed/QRIkhvTj6-4?si=tt__bVifpxvmfvOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
                 RPG fighting game. Winner of IEEE's 2023 Gamesig Student Showcase
                 <br/> 
                 Special Recognition Award for Most Innovative Audio and User 
@@ -78,7 +78,7 @@ function Projects(){
             <div className="border-8 border-black rounded-xl">
                 <iframe width="775" height="434" src="https://www.youtube.com/embed/AdDgQ5oNWB0?si=EPu245BdXAKJiNiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
             AI program that creates an optimal path for a computer player 
             <br/>
             unit to traverse obstacle courses of varying difficulty in the 
@@ -99,7 +99,7 @@ function Projects(){
                 <strong>Object Detector</strong>
             </div>
             <img src={detector} className="w-[25%] border-8 border-black rounded-xl" alt="Object Detector" draggable={false}/>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
             Given a collection of targets to identify, this program
             <br/>
             detects objects and faces in images with 70% accuracy.
@@ -128,7 +128,7 @@ function Projects(){
                 <strong>Wordle</strong>
             </div>
             <img src={wordle} className="w-[15%] border-8 border-black rounded-xl" alt="Wordle" draggable={false}/>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3">
             Remake of <em>The New York Times</em> Wordle word game. Added
             <br/>
             hard mode where the player cannot reuse incorrect
