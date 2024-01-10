@@ -14,9 +14,9 @@ function Home () {
         <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
       </div>
       <div className='flex flex-row items-center justify-center gap-10 mt-5 '>
-      <img src={pfp} className="w-[20%] hover:scale-105 transition" alt="Haley Icon" draggable={false}/>
+      <img src={pfp} className="w-[25%] hover:scale-105 transition" alt="Haley Icon" draggable={false}/>
       <div className=''>
-        <div className="text-2xl mt-2 text-left leading-relaxed font-UnbuntoMono">
+        <div className="text-3xl mt-2 text-left leading-relaxed font-UnbuntoMono">
             Hi! I'm Haley Inzunza, a software developer. I graduated
             <br/>
             with a degree in Computer Science from UC Irvine this past
@@ -25,17 +25,17 @@ function Home () {
             <br/>
             AI, Computer Vision, and Game Development. Passionate about
             <br/>
-            creating innovative solutions, I  thrive on challenges and explore
+            creating innovative solutions, I  thrive on challenges and 
             <br/>
-            explore new technologies to push the boundaries of what’s possible.
+            explore new technologies to push the boundaries of what’s
             <br/>
-            When I'm not building software or learning new technologies,
+            possible. When I'm not building software or learning new 
             <br />
-            I enjoy playing video games and volleyball, drawing and painting,
+            technologies, I enjoy playing video games and volleyball,
             <br />
-            film photography, and snowboarding.
+            drawing and painting, film photography, and snowboarding.
         </div>
-        <div className="flex flex-row justify-center items-center mt-4 gap-7">
+        <div className="flex flex-row justify-center items-center mt-2 gap-7">
           <a href="https://github.com/haleeei">
               {/* <img src={github} alt="GitHub icon"/> */}
                 <FiGithub size={60} className='text-black active:text-gray-600 hover:scale-105 transition '/ >
@@ -51,7 +51,7 @@ function Home () {
         </div>
       </div>
       </div> 
-      <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce'/>
+      <SlArrowDown size={60} className='text-green-900 mt-2 transition animate-bounce'/>
 
     </div>
   );
