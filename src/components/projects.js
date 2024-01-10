@@ -75,6 +75,9 @@ function Projects(){
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>Minecraft Parkour AI</strong>
             </div>
+            <div className="border-8 border-black rounded-xl">
+                <iframe width="800" height="448" src="https://www.youtube.com/embed/AdDgQ5oNWB0?si=EPu245BdXAKJiNiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
             AI program that creates an optimal path for a computer player 
             <br/>
