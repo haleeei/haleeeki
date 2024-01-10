@@ -13,10 +13,12 @@ function Projects(){
             </div>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
                 Check out the source code for my portfolio website here!
-                <a href="https://github.com/haleeei/haleeei.github.io">
-                {/* <img src={github} alt="GitHub icon"/> */}
-                    <FiGithub size={50} className='text-[#f66d1b] active:text-black hover:scale-105 transition '/ >
-                </a>
+                <div className="flex flex-col justify-center items-center">
+                    <a href="https://github.com/haleeei/haleeei.github.io">
+                    {/* <img src={github} alt="GitHub icon"/> */}
+                        <FiGithub size={50} className='text-[#f66d1b] active:text-black hover:scale-105 transition '/ >
+                    </a>
+                </div>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>3D Mesh Generator</strong>

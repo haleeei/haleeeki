@@ -6,6 +6,7 @@ import Home from './components/home.js';
 import Experience from './components/experience.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
+import MoreAbout from './components/moreabout.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     <Experience/>
     <Skills/>
     <Projects/>
+    <MoreAbout/>
 
   </React.StrictMode>
 );
