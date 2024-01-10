@@ -17,7 +17,7 @@ function Projects(){
                 <div className="flex flex-col justify-center items-center">
                     <a href="https://github.com/haleeei/haleeei.github.io">
                     {/* <img src={github} alt="GitHub icon"/> */}
-                        <FiGithub size={50} className='text-[#22610B] active:text-black hover:scale-105 transition '/ >
+                        <FiGithub size={50} className='text-[#f66d1b] active:text-black hover:scale-105 transition '/ >
                     </a>
                 </div>
             </div>
