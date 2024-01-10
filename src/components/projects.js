@@ -2,6 +2,7 @@ import { SlArrowDown } from "react-icons/sl";
 import meshgen from '../assets/meshgenerator.gif'
 import detector from '../assets/detector.png'
 import wordle from '../assets/wordle.png'
+import { FiGithub } from "react-icons/fi";
 
 function Projects(){
     return (
@@ -9,6 +10,13 @@ function Projects(){
             <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-0">
                 <p>Personal Projects</p>
                 <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
+            </div>
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+                Check out the source code for my portfolio website here!
+                <a href="https://github.com/haleeei/haleeei.github.io">
+                {/* <img src={github} alt="GitHub icon"/> */}
+                    <FiGithub size={50} className='text-[#f66d1b] active:text-black hover:scale-105 transition '/ >
+                </a>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>3D Mesh Generator</strong>
