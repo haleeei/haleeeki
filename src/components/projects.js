@@ -35,16 +35,16 @@ function Projects(){
                 <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Python
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     NumPy
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Matplotlib
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Jupyter Notebook
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     MeshLab
                 </div>
             </div>
@@ -62,13 +62,13 @@ function Projects(){
                 Interface and SGDA's Mini-grant for 2023's Student Games Showcase.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     C++
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Unreal Engine
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     FMOD Studio
                 </div>
             </div>
@@ -88,10 +88,10 @@ function Projects(){
             tested solved accurately.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Python
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Malmo API
                 </div>
             </div>
@@ -105,23 +105,23 @@ function Projects(){
             detects objects and faces in images with 70% accuracy.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Python
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     NumPy
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Matplotlib
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Jupyter Notebook
                 </div>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Gradient Features
                 </div>
             </div>
-            <div className="text-center text-[#DFF9D8] text-2xl leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+            <div className="text-center text-[#DFF9D8] text-2xl leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     Sliding Window Classification
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
@@ -136,7 +136,7 @@ function Projects(){
             letters from previous guesses or the game ends.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
                     MIPS Assembly Language
                 </div>
             </div>
