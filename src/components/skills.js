@@ -3,7 +3,7 @@ import { skillsData } from "../lib/data";
 
 function Skills(){
     return(
-        <div className="flex flex-col justify-center items-center mt-48">
+        <div className="flex flex-col justify-center items-center mt-8">
             <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-8">
                 <p>Technical Skills</p>
                 <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />

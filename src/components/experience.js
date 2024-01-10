@@ -16,7 +16,7 @@ function Experience() {
     return (
         /* <div style={divStyle}>
             {/* Your component content goes here }*/
-        <div className="flex flex-col justify-center items-center mt-48">
+        <div className="flex flex-col justify-center items-center mt-8">
             <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-0">
                 <p>Employment Experience</p>
                 <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />

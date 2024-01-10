@@ -18,3 +18,8 @@ export const skillsData = [
     "Visual Studio",
     "Valgrind",
 ];
+
+export const photos = [
+    { src: "../assets/colorado2.jpg", width: 800, height: 600 },
+    { src: "../assets/bristlecone.jpg", width: 1600, height: 900 },
+  ];
