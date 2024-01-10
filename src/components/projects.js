@@ -128,7 +128,7 @@ function Projects(){
                 <strong>Wordle</strong>
             </div>
             <img src={wordle} className="w-[15%] border-8 border-black rounded-xl" alt="Wordle" draggable={false}/>
-            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono">
             Remake of <em>The New York Times</em> Wordle word game. Added
             <br/>
             hard mode where the player cannot reuse incorrect
