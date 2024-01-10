@@ -3,7 +3,7 @@ import meshgen from '../assets/meshgenerator.gif'
 import detector from '../assets/detector.png'
 import wordle from '../assets/wordle.png'
 import { FiGithub } from "react-icons/fi";
-import { IoGameControllerOutline } from "react-icons/io5";
+import { IoGameController } from "react-icons/io5";
 
 function Projects(){
     return (
@@ -73,7 +73,7 @@ function Projects(){
                     FMOD Studio
                 </div>
                 <a href="https://zxgnjason.itch.io/we-got-compagnie">
-                <IoGameControllerOutline size={60} className='text-[#22610B] active:text-gray-600 hover:scale-105 transition '/ >
+                <IoGameController size={60} className='text-[#22610B] active:text-gray-600 hover:scale-105 transition '/ >
           </a>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
