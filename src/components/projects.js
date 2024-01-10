@@ -23,7 +23,7 @@ function Projects(){
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>3D Mesh Generator</strong>
             </div>
-            <img src={meshgen} className="w-[55%] border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
+            <img src={meshgen} className="w-[50%] border-8 border-black rounded-xl" alt="Mesh Generator gif" draggable={false}/>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
                 Takes in a collection of structured light scans of an 
                 <br/> 
@@ -52,7 +52,7 @@ function Projects(){
                 <strong>We Got Compagnie!</strong>
             </div>
             <div className="border-8 border-black rounded-xl">
-                <iframe width="800" height="448" src="https://www.youtube.com/embed/QRIkhvTj6-4?si=tt__bVifpxvmfvOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="775" height="434" src="https://www.youtube.com/embed/QRIkhvTj6-4?si=tt__bVifpxvmfvOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
                 RPG fighting game. Winner of IEEE's 2023 Gamesig Student Showcase
@@ -76,7 +76,7 @@ function Projects(){
                 <strong>Minecraft Parkour AI</strong>
             </div>
             <div className="border-8 border-black rounded-xl">
-                <iframe width="800" height="448" src="https://www.youtube.com/embed/AdDgQ5oNWB0?si=EPu245BdXAKJiNiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="775" height="434" src="https://www.youtube.com/embed/AdDgQ5oNWB0?si=EPu245BdXAKJiNiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
             AI program that creates an optimal path for a computer player 
