@@ -20,6 +20,9 @@ export const skillsData = [
 ];
 
 export const photos = [
-    { src: "../assets/colorado2.jpg", width: 800, height: 600 },
-    { src: "../assets/bristlecone.jpg", width: 1600, height: 900 },
+    { src: require('../assets/colorado1.jpg'), width: 800, height: 600 },
+    { src: require('../assets/bahamas2.JPG'), width: 1600, height: 900 },
+    { src: require('../assets/bahamas1.JPG'), width: 1600, height: 900 },
+    { src: require('../assets/bristlecone.jpg'), width: 1600, height: 900 },
+
   ];

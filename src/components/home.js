@@ -6,6 +6,8 @@ import { FiGithub } from "react-icons/fi";
 import { HiOutlineNewspaper } from "react-icons/hi2";
 import { SlArrowDown } from "react-icons/sl";
 
+
+
 function Home () {
   return (
     <div className="flex flex-col justify-center items-center w-full ">
@@ -35,6 +37,8 @@ function Home () {
             <br />
             drawing and painting, film photography, and snowboarding.
         </div>
+        {/* <PhotoAlbum layout="rows" photos={photos}/> */}
+
         <div className="flex flex-row justify-center items-center mt-2 gap-7">
           <a href="https://github.com/haleeei">
               {/* <img src={github} alt="GitHub icon"/> */}
