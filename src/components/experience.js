@@ -27,6 +27,8 @@ function Experience() {
                             <div className=" text-2xl text-left leading-relaxed font-UnbuntoMono bg-[#DFF9D8] border-8 border-double border-green-900 p-5 rounded-xl shadow-2xl">
                                 <strong>VISUALIZATION INTERN - MULTIMEDIA & GAME PROGRAMMING</strong>
                                 <br/>
+                                <em>June 2023 - August 2023</em>
+                                <br/>
                                 Here I contributed extensively to the development of a    
                                 <br />
                                 multiplayer war-game tailored for the U.S. Space Force.
@@ -61,6 +63,8 @@ function Experience() {
                         <div className='flex flex-row items-center justify-center gap-10 mt-16'>
                         <div className=" text-2xl text-left leading-relaxed font-UnbuntoMono bg-[#F7D999] border-8 border-double border-[#f66d1b] p-5 rounded-xl shadow-2xl">
                                 <strong> HEAD UNDERGRADUATE TA - DATA STRUCTURES & ALGORITHMS</strong>
+                                <br/>
+                                <em>January 2022 - January 2024</em>
                                 <br/>
                                 Here I worked as the Head Undergraduate TA for the  
                                 <br/>
@@ -105,6 +109,8 @@ function Experience() {
                             <img src={UCI} className="w-[25%] hover:scale-105 transition" alt="UCI Icon" draggable={false}/>
                             <div className=" text-2xl text-left leading-relaxed font-UnbuntoMono bg-[#DFF9D8] border-8 border-double border-green-900 p-5 rounded-xl shadow-2xl">
                                 <strong>UNDERGRADUATE TA - DESIGN & ANALYSIS OF ALGORITHMS</strong>
+                                <br/>
+                                <em>January 2023 - January 2024</em>
                                 <br/>
                                 Here I worked as an Undergraduate TA for the Design 
                                 <br/>
