@@ -61,6 +61,18 @@ function Projects(){
                         FMOD Studio
                     </div>
             </div>
+            <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
+                <strong>Minecraft Parkour AI</strong>
+            </div>
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            AI program that creates an optimal path for a computer player 
+            <br/>
+            unit to traverse obstacle courses of varying difficulty in the 
+            <br/>
+            game Minecraft using reinforcement learning. 100% of courses 
+            <br/>
+            tested solved accurately.
+            </div>
 
         </div>
 
