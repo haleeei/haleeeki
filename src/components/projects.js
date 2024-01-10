@@ -74,7 +74,10 @@ function Projects(){
                 </div>
                 <a href="https://zxgnjason.itch.io/we-got-compagnie">
                 <IoGameController size={60} className='text-[#22610B] active:text-gray-600 hover:scale-105 transition '/ >
-          </a>
+                </a>
+                <a href="https://github.com/GoodBreadStudios/WeGotCompagnie">
+                <FiGithub size={60} className='text-[#22610B] active:text-gray-600 hover:scale-105 transition '/ >
+                 </a>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>Minecraft Parkour AI</strong>
