@@ -55,7 +55,7 @@ function Home () {
         </div>
       </div>
       </div> 
-      <SlArrowDown size={60} className='text-green-900 mt-2 transition animate-bounce'/>
+      <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce'/>
 
     </div>
   );

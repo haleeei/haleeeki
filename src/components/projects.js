@@ -1,4 +1,3 @@
-import { SlArrowDown } from "react-icons/sl";
 import meshgen from '../assets/meshgenerator.gif'
 import detector from '../assets/detector.png'
 import wordle from '../assets/wordle.png'
@@ -15,7 +14,7 @@ function Projects(){
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-3 ">
                 Check out the source code for my portfolio website here!
                 <div className="flex flex-col justify-center items-center">
-                    <a href="https://github.com/haleeei/haleeei.github.io">
+                    <a href="https://github.com/haleeei/haleeeki">
                     {/* <img src={github} alt="GitHub icon"/> */}
                         <FiGithub size={50} className='text-[#f66d1b] active:text-black hover:scale-105 transition '/ >
                     </a>
@@ -147,7 +146,6 @@ function Projects(){
                     MIPS Assembly Language
                 </div>
             </div>
-            <SlArrowDown size={60} className='text-green-900 mt-8 transition animate-bounce'/>
             
 
         </div>

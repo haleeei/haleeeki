@@ -1,13 +1,9 @@
 import { SlArrowDown } from "react-icons/sl";
-import PhotoAlbum from "react-photo-album";
-import {photos} from "../lib/data"
 
 
 function Moreabout(){
-    return(
-        
-        <div>
-            <div className="flex flex-col justify-center items-center w-full mt-8">
+    return(      
+        <div className="flex flex-col justify-center items-center w-full mt-8">
                 <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-0">
                     <p>More About Me</p>
                     <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
@@ -22,11 +18,6 @@ function Moreabout(){
                     <br/>
                     any given moment. Some shots I've taken:
                 </div>
-            </div>
-            <div className='w-[80%]'>
-
-             <PhotoAlbum layout="rows" photos={photos} />
-            </div>
             <div className="flex flex-col justify-center items-center w-full mt-8">
                 <SlArrowDown size={60} className='text-green-900 mt-8 transition animate-bounce' />
             </div>
