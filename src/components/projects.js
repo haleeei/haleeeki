@@ -55,11 +55,11 @@ function Projects(){
                 <iframe width="800" height="448" src="https://www.youtube.com/embed/QRIkhvTj6-4?si=tt__bVifpxvmfvOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
-                Winner of IEEE's 2023 Gamesig Student Showcase Special 
+                RPG fighting game. Winner of IEEE's 2023 Gamesig Student Showcase
                 <br/> 
-                Recognition Award for Most Innovative Audio and User Interface
+                Special Recognition Award for Most Innovative Audio and User 
                 <br/>
-                and SGDA's Mini-grant for 2023's Student Games Showcase.
+                Interface and SGDA's Mini-grant for 2023's Student Games Showcase.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
                 <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
@@ -100,7 +100,9 @@ function Projects(){
             </div>
             <img src={detector} className="w-[25%] border-8 border-black rounded-xl" alt="Object Detector" draggable={false}/>
             <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
-            Detects objects and faces in images with 70% accuracy.
+            Given a collection of targets to identify, this program
+            <br/>
+            detects objects and faces in images with 70% accuracy.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
                 <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
