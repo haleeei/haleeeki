@@ -36,15 +36,15 @@ function Home () {
             film photography, and snowboarding.
         </div>
         <div className="flex flex-row justify-center items-center mt-4 gap-7">
-          <a href="https://github.com/haleeei" target='_blank'>
+          <a href="https://github.com/haleeei">
               {/* <img src={github} alt="GitHub icon"/> */}
                 <FiGithub size={80} className='text-black active:text-gray-600 hover:scale-105 transition '/ >
           </a>
-          <a href="https://www.linkedin.com/in/haley-inzunza-76033914a/"  target='_blank'>
+          <a href="https://www.linkedin.com/in/haley-inzunza-76033914a/">
               {/* <img src={linkedIn} alt="Linkedin icon"/>*/}
                 <FaLinkedin size={80} className='text-black active:text-gray-600 hover:scale-105 transition '/>
           </a>
-          <a href={resume}  target='_blank'>
+          <a href={resume}>
               {/* <img src={resume} alt="Resume icon"/> */}
                 <HiOutlineNewspaper size={90} className='text-black active:text-gray-600 hover:scale-105 transition '/>
           </a>

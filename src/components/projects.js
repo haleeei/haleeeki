@@ -1,6 +1,7 @@
 import { SlArrowDown } from "react-icons/sl";
 import meshgen from '../assets/meshgenerator.gif'
-import compagnie from '../assets/WeGotCompagnie.gif'
+import detector from '../assets/detector.png'
+import wordle from '../assets/wordle.png'
 
 function Projects(){
     return (
@@ -21,21 +22,21 @@ function Projects(){
                 single rotatable 3D mesh reconstruction of the subject.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        Python
-                    </div>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        NumPy
-                    </div>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        Matplotlib
-                    </div>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        Jupyter Notebook
-                    </div>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        MeshLab
-                    </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Python
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    NumPy
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Matplotlib
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Jupyter Notebook
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    MeshLab
+                </div>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>We Got Compagnie!</strong>
@@ -51,15 +52,15 @@ function Projects(){
                 and SGDA's Mini-grant for 2023's Student Games Showcase.
             </div>
             <div className='flex flex-row items-center justify-center gap-4'>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        C++
-                    </div>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        Unreal Engine
-                    </div>
-                    <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
-                        FMOD Studio
-                    </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    C++
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Unreal Engine
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    FMOD Studio
+                </div>
             </div>
             <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
                 <strong>Minecraft Parkour AI</strong>
@@ -73,6 +74,59 @@ function Projects(){
             <br/>
             tested solved accurately.
             </div>
+            <div className='flex flex-row items-center justify-center gap-4'>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Python
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Malmo API
+                </div>
+            </div>
+            <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
+                <strong>Object Detector</strong>
+            </div>
+            <img src={detector} className="w-[25%] border-8 border-black rounded-xl" alt="Object Detector" draggable={false}/>
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            Detects objects and faces in images with 70% accuracy.
+            </div>
+            <div className='flex flex-row items-center justify-center gap-4'>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Python
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    NumPy
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Matplotlib
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Jupyter Notebook
+                </div>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Gradient Features
+                </div>
+            </div>
+            <div className="text-center text-[#DFF9D8] text-2xl leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    Sliding Window Classification
+            </div>
+            <div className="mt-16 text-5xl text-center leading-relaxed font-UnbuntoMono">
+                <strong>Wordle</strong>
+            </div>
+            <img src={wordle} className="w-[15%] border-8 border-black rounded-xl" alt="Wordle" draggable={false}/>
+            <div className="text-3xl text-center leading-relaxed font-UnbuntoMono mt-5 ">
+            Remake of <em>The New York Times</em> Wordle word game. Added
+            <br/>
+            hard mode where the player cannot reuse incorrect
+            <br/>
+            letters from previous guesses or the game ends.
+            </div>
+            <div className='flex flex-row items-center justify-center gap-4'>
+                <div className="text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 bg-[#f66d1b] border-2 border-[#f66d1b] rounded-xl">
+                    MIPS Assembly Language
+                </div>
+            </div>
+            <SlArrowDown size={60} className='text-green-900 mt-8 transition animate-bounce'/>
+            
 
         </div>
 
