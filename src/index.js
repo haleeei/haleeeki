@@ -7,17 +7,19 @@ import Experience from './components/experience.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
 
+import { BrowserRouter } from "react-router-dom";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
-    <Home/> 
-    {/* Put new components here */}
-    <Experience/>
-    <Skills/>
-    <Projects/>
+    <BrowserRouter>
+      <Home/> 
+      <Experience/>
+      <Skills/>
+      <Projects/>
+    </BrowserRouter>
 
   </React.StrictMode>
 );

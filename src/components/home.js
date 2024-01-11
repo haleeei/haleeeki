@@ -5,12 +5,13 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineNewspaper } from "react-icons/hi2";
 import { SlArrowDown } from "react-icons/sl";
+import { Link } from "react-router-dom";
 
 
 
 function Home () {
   return (
-    <div className="flex flex-col justify-center items-center w-full ">
+    <div id = "home" className="flex flex-col justify-center items-center w-full scroll-mt-28">
       <div className="text-[#22610B] text-9xl font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-5">
         <p>Haley Khuu Inzunza</p>
         <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
@@ -55,7 +56,13 @@ function Home () {
         </div>
       </div>
       </div> 
-      <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce'/>
+      <Link to="/" onClick={() => {
+          let exp = document.getElementById("experience");
+          exp && exp.scrollIntoView({ behavior: "smooth", block: "start" });
+        }}
+      >
+        <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce' />
+      </Link>
 
     </div>
   );

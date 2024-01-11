@@ -6,7 +6,7 @@ import { IoGameController } from "react-icons/io5";
 
 function Projects(){
     return (
-        <div className="flex flex-col justify-center items-center mt-8">
+        <div id = "projects" className="flex flex-col justify-center items-center mt-8">
             <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-0">
                 <p>Personal Projects</p>
                 <div className='w-[90%] h-[5px] bg-[#22610B] rounded-full' />
