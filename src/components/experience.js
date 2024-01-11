@@ -2,7 +2,7 @@
 import SAIC from '../assets/874px-SAIC_Logo.png'
 import UCI from '../assets/uci3.png'
 import { SlArrowDown } from "react-icons/sl";
-
+import { Link } from "react-router-dom";
 
 
 
@@ -143,7 +143,13 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                <SlArrowDown size={60} className='text-green-900 mt-8 transition animate-bounce'/>
+                <Link to="/" onClick={() => {
+                    let exp = document.getElementById("skills");
+                    exp && exp.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }}
+                >
+                    <SlArrowDown size={60} className='text-green-900 mt-4 transition animate-bounce' />
+                </Link>
             </div>
 );
 }
