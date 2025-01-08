@@ -152,6 +152,7 @@ export default Experience;*/
 
 import React from "react";
 import SAIC from '../assets/874px-SAIC_Logo.png';
+import SNAP from '../assets/file.png';
 import UCI from '../assets/uci3.png';
 import { SlArrowDown } from "react-icons/sl";
 import { Link } from "react-router-dom";
@@ -159,13 +160,23 @@ import { Link } from "react-router-dom";
 // Define your experience data as an array of objects
 const experiences = [
     {
+        company: "SNAP, INC.",
+        title: "BACKEND SOFTWARE ENGINEER APPRENTICE - INFERENCE PLATFORM",
+        duration: "August 2024 - Present",
+        description: [
+            "As an apprentice on the Inference Platform team, I primarily focus on increasing observability efforts and optimizing debugging efficiency in our ML pipeline. Some examples of teams and ML models I work closely on are ad and feed recommendations, MyAI chatbot, and 'lens' filter ranking."
+        ],
+        skills: ["Golang", "Java", "Git", "Docker", "GCP", "Kubernetes"],
+        image: SNAP,
+        bgColor: "bg-[#F7D999]",
+        borderColor: "border-[#f66d1b]",
+    },
+    {
         company: "SAIC",
         title: "VISUALIZATION INTERN - MULTIMEDIA & GAME PROGRAMMING",
         duration: "June 2023 - August 2023",
         description: [
-            "Contributed extensively to the development of a multiplayer war-game tailored for the U.S. Space Force.",
-            "Pioneered a cutting-edge pipeline integrating simulations of military assets into the game's framework.",
-            "Achieved a groundbreaking milestone and presented the final project to U.S. Space Force customers.",
+            " At SAIC, I contributed extensively to the development of a multiplayer war-game tailored for the U.S. Space Force. My primary responsibility revolved around pioneering a cutting-edge pipeline, seamlessly integrating simulations of military assets into the game's framework. Our team achieved a groundbreaking milestone by successfully executing this approach and presented our findings and final project to our U.S. Space Force customers."
         ],
         skills: ["C++", "Unreal Engine", "Gitlab", "MATLAB"],
         image: SAIC,
@@ -177,11 +188,9 @@ const experiences = [
         title: "HEAD UNDERGRADUATE TA - DATA STRUCTURES & ALGORITHMS",
         duration: "January 2022 - January 2024",
         description: [
-            "Served as the first undergraduate teaching assistant for the Data Structures & Algorithms courses.",
-            "Restructured lesson plans, homework assignments, and exam materials.",
-            "Hosted targeted test review sessions to help students excel academically.",
+            "I worked as the Head Undergraduate TA for ICS 46: Data Structures & Algorithms at my university. As the first undergraduate teaching assistant, I played a pivotal role in shaping the foundation of the class.My contribution extended beyond the conventional responsibilities, delving into the restructuring of lesson plans, homework assignments, and exam materials. Hosting targeted test review sessions became a cornerstone of my approach, catering to students striving to excel academically."
         ],
-        skills: ["C++", "Valgrind", "Git", "Teaching", "Leadership"],
+        skills: ["C++", "Valgrind", "Git", "Data Structures", "Algorithm Analysis", "Teaching", "Leadership"],
         image: UCI,
         bgColor: "bg-[#F7D999]",
         borderColor: "border-[#f66d1b]",
@@ -191,11 +200,9 @@ const experiences = [
         title: "UNDERGRADUATE TA - DESIGN & ANALYSIS OF ALGORITHMS",
         duration: "January 2023 - January 2024",
         description: [
-            "Taught algorithm analysis for time and space optimization.",
-            "Covered advanced divide-and-conquer, dynamic programming, and greedy algorithms.",
-            "Hosted office hours and graded exams and homework for classes of 250+ students.",
+            "I worked as an Undergraduate TA for CS 161: Design & Analysis of Algorithms at my university. I taught students how to analyze algorithms for time and space optimization, and identify and design advanced divide-and-conquer, dynamic programming, and greedy algorithms. Additionally, I hosted office hours to help students reach their academic objectives and graded both exams and homework for classes of 250+ people."
         ],
-        skills: ["C++", "Teaching", "Leadership"],
+        skills: ["C++", "Algorithm Analysis", "Teaching", "Leadership"],
         image: UCI,
         bgColor: "bg-[#DFF9D8]",
         borderColor: "border-green-900",
