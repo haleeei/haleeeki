@@ -80,13 +80,11 @@ const content = {
   name: "Haley Khuu Inzunza",
   bio: [
     "Hi! I'm Haley Inzunza, a software developer. I  currently work as a junior", 
-    "backend software engineer at Snap, Inc. I also graduated with a degree in",
-    "Computer Science from UC Irvine in December of 2023, where I delved into",
-    "various technical domains like AI, Computer Vision, and Game Development.",
-    "Passionate about creating innovative solutions, I thrive on challenges and",
-    "explore new technologies to push the boundaries of what’s possible. When ",
+    "backend software engineer at Snap, Inc. and graduated with a degree in",
+    "Computer Science from UC Irvine in December of 2023. I have various technical",
+    "interests in domains like AI, Computer Vision, and Game Development. When ",
     "I'm not building software or learning new technologies, I enjoy playing video",
-    "games and volleyball, knitting, drawing and painting, film photography, and snowboarding.",
+    "games, knitting, drawing and painting, film photography, and snowboarding.",
   ],
   socialLinks: [
     { icon: <FiGithub size={60} />, href: "https://github.com/haleeei", alt: "GitHub" },
