@@ -66,7 +66,7 @@ function Home () {
 
 export default Home;*/
 
-import pfp from '../assets/haleeei.png';
+import pfp from '../assets/haley.jpg';
 import resume from '../assets/Inzunza_Haley_2025_Resume.pdf';
 
 import { FaLinkedin } from "react-icons/fa6";
