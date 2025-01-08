@@ -1,5 +1,5 @@
 import pfp from '../assets/haleeei.png'
-import resume from '../assets/Inzunza_Haley_2024_Resume.pdf'
+import resume from '../assets/Inzunza_Haley_2025_Resume.pdf'
 
 import { FaLinkedin } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
