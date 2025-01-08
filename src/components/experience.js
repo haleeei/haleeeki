@@ -164,7 +164,7 @@ const experiences = [
         title: "BACKEND SOFTWARE ENGINEER APPRENTICE - INFERENCE PLATFORM",
         duration: "August 2024 - Present",
         description: [
-            "As an apprentice on the Inference Platform team, I primarily focus on increasing observability efforts and optimizing debugging efficiency in our ML pipeline. Some examples of teams and ML models I work closely on are ad and feed recommendations, MyAI chatbot, and 'lens' filter ranking."
+            "As an apprentice on the Inference Platform team, I primarily focus on increasing observability efforts, optimizing debugging efficiency, and deploying and managing applications running on Kubernetes and GCP in our ML pipeline. Some examples of teams and ML models I work closely on are ad and feed recommendations, MyAI chatbot, and 'lens' filter ranking."
         ],
         skills: ["Golang", "Java", "Git", "Docker", "GCP", "Kubernetes"],
         image: SNAP,
