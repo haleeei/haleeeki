@@ -120,33 +120,17 @@ function Home() {
           <br/>
           </p>
         </h1>
-        <div className= "flex justify-center items-center">
+        <div className= "nes-text is-primary text-center">
           <p className="press-start-2p-regular text-center">
             Click here to begin.
           </p>
-          <button className="nes-btn is-normal center">  
-            >
-          <Link
-            to="/experience"
-            onClick={() => {
-              const exp = document.getElementById("experience");
-            }}
-          >  
+          <Link to="/experience">
+            <button className="nes-btn is-primary text-white center">  
+              >
+            </button>
           </Link>
-          </button>
         </div>
       </div>
-
-      {/* Scroll Down Link */}
-      <Link
-        to="/"
-        onClick={() => {
-          const exp = document.getElementById("experience");
-          exp && exp.scrollIntoView({ behavior: "smooth", block: "start" });
-        }}
-      >
-        <SlArrowDown size={60} className="text-green-900 mt-4 transition animate-bounce" />
-      </Link>
     </div>
   );
 }
