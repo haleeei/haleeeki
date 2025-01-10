@@ -75,6 +75,7 @@ import { HiOutlineNewspaper } from "react-icons/hi2";
 import { SlArrowDown } from "react-icons/sl";
 import { Link } from "react-router-dom";
 
+import "nes.css/css/nes.min.css"
 // Content as a JSON object for reusability
 const content = {
   name: "Haley Khuu Inzunza",
@@ -97,7 +98,7 @@ function Home() {
   return (
     <div id="home" className="flex flex-col justify-center items-center w-full h-screen">
       {/* Header */}
-      <div className="flex flex-col justify-center items-center text-black text-8xl h-full">
+      <div className="flex flex-col justify-center items-center text-black text-8xl">
         <p className="bit-title-font text-center">
           Haley Inzunza's
           <br/>
@@ -105,30 +106,34 @@ function Home() {
         </p>
       </div>
 
-      {/* Profile Section */}
-      <div className="flex flex-row items-center justify-center gap-10 mt-5">
-        <img
-          src={pfp}
-          className="w-[25%] hover:scale-105 transition"
-          alt="Haley Icon"
-          draggable={false}
-        />
-        <div>
-          {/* Bio */}
-          <div className="text-3xl mt-2 text-left leading-relaxed font-UnbuntoMono">
-            {content.bio.map((line, index) => (
-              <p key={index}>{line}</p>
-            ))}
-          </div>
-
-          {/* Social Links */}
-          <div className="flex flex-row justify-center items-center mt-2 gap-7">
-            {content.socialLinks.map((link, index) => (
-              <a href={link.href} key={index} aria-label={link.alt} className="hover:scale-105 transition">
-                {link.icon}
-              </a>
-            ))}
-          </div>
+      <div className="nes-container is-dark">
+        <h1 className="nes-text is-normal text-center text-2xl"> 
+          <p className="press-start-2p-regular text-center">
+          NOTE:
+          <br/>
+          Please open on a desktop 
+          <br/> 
+          or laptop computer for the
+          <br/>
+          best viewing experience.
+          <br/>
+          <br/>
+          </p>
+        </h1>
+        <div className= "flex justify-center items-center">
+          <p className="press-start-2p-regular text-center">
+            Click here to begin.
+          </p>
+          <button className="nes-btn is-normal center">  
+            >
+          <Link
+            to="/experience"
+            onClick={() => {
+              const exp = document.getElementById("experience");
+            }}
+          >  
+          </Link>
+          </button>
         </div>
       </div>
 

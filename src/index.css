@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html, body{
   height:100%
@@ -46,4 +47,10 @@ body::before {
 
 .bit-title-font {
   font-family: '8BitTitle', sans-serif; /* Fallback to sans-serif if the custom font fails to load */
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
 }
