@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
 
+html, body{
+  height:100%
+}
 
 body {
   margin: 0;
@@ -12,10 +15,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(255, 251, 242);
+  background-image: url('./assets/988882.jpg'); /* Adjust the path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Set opacity here */
+  z-index: -1; /* Ensure the overlay is behind the content */
+}
+
+@font-face {
+  font-family: '8BitTitle';
+  src: url('./assets/fonts/04B_30__.TTF') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+.bit-title-font {
+  font-family: '8BitTitle', sans-serif; /* Fallback to sans-serif if the custom font fails to load */
 }

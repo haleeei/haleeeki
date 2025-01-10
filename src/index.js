@@ -7,7 +7,7 @@ import Experience from './components/experience.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
 
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
@@ -15,10 +15,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Home/> 
-      <Experience/>
-      <Skills/>
-      <Projects/>
+      <Routes>
+        <Route path ="/" element={<Home/>} />
+        <Route path ="/experience" element={<Experience/>} />
+        <Route path ="/skills" element={<Skills/>} />
+        <Route path ="/projects" element={<Projects/>} />
+      </Routes>
     </BrowserRouter>
 
   </React.StrictMode>

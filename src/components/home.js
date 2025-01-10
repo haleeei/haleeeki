@@ -95,11 +95,14 @@ const content = {
 
 function Home() {
   return (
-    <div id="home" className="flex flex-col justify-center items-center w-full scroll-mt-28">
+    <div id="home" className="flex flex-col justify-center items-center w-full h-screen">
       {/* Header */}
-      <div className="text-[#22610B] text-9xl font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-5">
-        <p>{content.name}</p>
-        <div className="w-[90%] h-[5px] bg-[#22610B] rounded-full" />
+      <div className="flex flex-col justify-center items-center text-black text-8xl h-full">
+        <p className="bit-title-font text-center">
+          Haley Inzunza's
+          <br/>
+          Portfolio Website
+        </p>
       </div>
 
       {/* Profile Section */}
