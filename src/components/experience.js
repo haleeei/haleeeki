@@ -156,6 +156,8 @@ import SNAP from '../assets/file.png';
 import UCI from '../assets/uci3.png';
 import { SlArrowDown } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft'
+import TrapezoidTitleBarRight from './TrapezoidTitleBarRight'
 
 // Define your experience data as an array of objects
 const experiences = [
@@ -211,60 +213,13 @@ const experiences = [
 
 function Experience() {
     return (
-        <div id="experience" className="flex flex-col justify-center items-center mt-48">
-            <div className="text-[#22610B] text-[7rem] font-UnbuntoMono font-extrabold flex flex-col justify-center items-center gap-0">
-                <p>Employment Experience</p>
-                <div className="w-[90%] h-[5px] bg-[#22610B] rounded-full" />
+        <div id="experience" className="flex flex-row justify-center items-center mt-20">
+            <div id ="right" className = "flex flex-col justify-start items-center w-full">
+                <TrapezoidTitleBarRight title="test title!!"/>
             </div>
-            <div className="flex flex-col items-center justify-center gap-10 mt-8">
-                {experiences.map((exp, index) => (
-                    <div
-                        key={index}
-                        className={`flex flex-row items-center justify-center gap-10 mt-16 ${
-                            index % 2 === 1 ? "flex-row-reverse" : ""
-                        }`}
-                    >
-                        <img
-                            src={exp.image}
-                            className="w-[25%] hover:scale-105 transition"
-                            alt={`${exp.company} Icon`}
-                            draggable={false}
-                        />
-                        <div
-                            className={`text-2xl text-left leading-relaxed font-UnbuntoMono ${exp.bgColor} border-8 border-double ${exp.borderColor} p-5 rounded-xl shadow-2xl`}
-                        >
-                            <strong>{exp.title}</strong>
-                            <br />
-                            <em>{exp.duration}</em>
-                            <br />
-                            {exp.description.map((line, i) => (
-                                <div key={i}>{line}</div>
-                            ))}
-                            <div className="flex flex-row items-center justify-center gap-4">
-                                {exp.skills.map((skill, i) => (
-                                    <div
-                                        key={i}
-                                        className={`text-[#DFF9D8] text-2xl text-left leading-relaxed font-UnbuntoMono p-1 mt-4 ${
-                                            exp.borderColor.replace("border-", "bg-")
-                                        } border-2 ${exp.borderColor} rounded-xl`}
-                                    >
-                                        {skill}
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                ))}
+            <div id ="right" className = "flex flex-col justify-start items-center w-full">
+                <TrapezoidTitleBarLeft title="title test!!"/>
             </div>
-            <Link
-                to="/"
-                onClick={() => {
-                    let exp = document.getElementById("skills");
-                    exp && exp.scrollIntoView({ behavior: "smooth", block: "start" });
-                }}
-            >
-                <SlArrowDown size={60} className="text-green-900 mt-4 transition animate-bounce" />
-            </Link>
         </div>
     );
 }
