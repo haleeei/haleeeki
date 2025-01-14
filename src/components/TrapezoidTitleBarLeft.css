@@ -1,9 +1,9 @@
 .title-bar-left {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: black;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%, 0 0%); /* Trapezoid shape (0 0, calc(100% - 70px) 0, 100% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 5% 100%, 0 0%); /* Trapezoid shape (0 0, calc(100% - 70px) 0, 100% 100%, 0% 100%); */
     color: white;
     font-family: 'Press Start 2P', cursive; /* 8-bit font */
     display: flex;

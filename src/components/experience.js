@@ -158,6 +158,7 @@ import { SlArrowDown } from "react-icons/sl";
 import { Link } from "react-router-dom";
 import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft'
 import TrapezoidTitleBarRight from './TrapezoidTitleBarRight'
+import HXLOZ from '../assets/hxloz.gif'
 
 // Define your experience data as an array of objects
 const experiences = [
@@ -219,6 +220,14 @@ function Experience() {
             </div>
             <div id ="right" className = "flex flex-col justify-start items-center w-full">
                 <TrapezoidTitleBarLeft title="title test!!"/>
+                <div id="socials" className="flex flex-row justify-center items-center">
+                    <i className= "nes-icon github is-large"></i>
+                    <i className= "nes-icon linkedin is-large"></i>
+                    <button className="nes-btn is-error text-white center">  
+                    RESUME
+                    </button>
+                </div>
+                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false}/>
             </div>
         </div>
     );
