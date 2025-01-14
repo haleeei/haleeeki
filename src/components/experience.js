@@ -214,7 +214,7 @@ const experiences = [
 const about_selections = [
     {
         title: "About Me",
-        description:  "Hi! I'm Haley Inzunza, a software developer. I  currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
+        description:  "Hi! I'm Haley Inzunza. I currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
     },
     {
         title: "My Programming Languages",
@@ -237,8 +237,23 @@ function Experience() {
 
     return (
         <div id="experience" className="flex flex-row justify-center items-center mt-12">
-            <div id ="left" className = "flex flex-col justify-start items-center w-full">
-                <TrapezoidTitleBarRight title={currentSelection.title} onButtonClick={handleSelection}></TrapezoidTitleBarRight>
+            <div id="left" className="flex flex-col justify-start items-center w-full">
+                <TrapezoidTitleBarRight 
+                    title={currentSelection.title} 
+                    onButtonClick={handleSelection}
+                />
+                <div className="description-container w-full about-spacing">
+                    <p className="text-black text-lg text-center">
+                        {currentSelection.description}
+                    </p>
+                </div>
+                {currentSelection.title === "About Me" && ( 
+                        <div className="items-center"> {/* Ensuring full width for the button container */}
+                            <button className="nes-btn is-success text-white block">
+                                More about my hobbies!
+                            </button>
+                        </div>
+                    )}
             </div>
             <div id ="right" className = "flex flex-col justify-start items-center w-full">
                 <TrapezoidTitleBarLeft title="Haley Inzunza"/>

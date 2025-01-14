@@ -61,3 +61,19 @@ body::before {
   gap: 1rem;
   justify-content: center;
 }
+.about-spacing {
+  margin-top: 6rem; /* Adjust as needed */
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+.description-container {
+  border-radius: 8px;
+  padding: 1rem 2rem; /* 1rem top/bottom, 2rem left/right */
+  max-width: 800px; /* Optional: Restrict maximum width for better readability */
+  margin: 0 auto; /* Center the container */
+  color: white;
+  text-align: left; /* Align text to the left for better readability */
+}
