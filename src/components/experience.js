@@ -150,15 +150,14 @@ function Experience() {
 
 export default Experience;*/
 
-import React from "react";
+import React, { useState } from "react";
 import SAIC from '../assets/874px-SAIC_Logo.png';
 import SNAP from '../assets/file.png';
 import UCI from '../assets/uci3.png';
-import { SlArrowDown } from "react-icons/sl";
-import { Link } from "react-router-dom";
 import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft'
 import TrapezoidTitleBarRight from './TrapezoidTitleBarRight'
 import HXLOZ from '../assets/hxloz.gif'
+import resume from '../assets/Inzunza_Haley_2025_Resume.pdf'
 
 // Define your experience data as an array of objects
 const experiences = [
@@ -212,22 +211,51 @@ const experiences = [
     },
 ];
 
+const about_selections = [
+    {
+        title: "About Me",
+        description:  "Hi! I'm Haley Inzunza, a software developer. I  currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
+    },
+    {
+        title: "My Programming Languages",
+        description: "placeholder",
+    }, 
+    {
+        title: "My Technologies",
+        description: "placeholder",
+    }, 
+
+];
+
 function Experience() {
+    const [currentSelectionIndex, setCurrentSelectionIndex] = useState(0);
+    const handleSelection = () => {
+        setCurrentSelectionIndex((prevIndex) => (prevIndex + 1) % about_selections.length); 
+    };
+
+    const currentSelection = about_selections[currentSelectionIndex];
+
     return (
-        <div id="experience" className="flex flex-row justify-center items-center mt-20">
-            <div id ="right" className = "flex flex-col justify-start items-center w-full">
-                <TrapezoidTitleBarRight title="test title!!"/>
+        <div id="experience" className="flex flex-row justify-center items-center mt-12">
+            <div id ="left" className = "flex flex-col justify-start items-center w-full">
+                <TrapezoidTitleBarRight title={currentSelection.title} onButtonClick={handleSelection}></TrapezoidTitleBarRight>
             </div>
             <div id ="right" className = "flex flex-col justify-start items-center w-full">
-                <TrapezoidTitleBarLeft title="title test!!"/>
-                <div id="socials" className="flex flex-row justify-center items-center">
-                    <i className= "nes-icon github is-large"></i>
-                    <i className= "nes-icon linkedin is-large"></i>
-                    <button className="nes-btn is-error text-white center">  
-                    RESUME
-                    </button>
+                <TrapezoidTitleBarLeft title="Haley Inzunza"/>
+                <div id="socials" className="socials-spacing">
+                    <a href="https://github.com/haleeei">
+                        <i className= "nes-icon github is-large"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/haley-inzunza-76033914a/">
+                        <i className= "nes-icon linkedin is-large"></i>
+                    </a>
+                    <a href={resume}>
+                        <button className="nes-btn is-error text-white items-center">  
+                        RESUME
+                        </button>
+                    </a>
                 </div>
-                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false}/>
+                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-6"/>
             </div>
         </div>
     );

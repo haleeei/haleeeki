@@ -19,3 +19,9 @@
     padding: 10px;
     text-align: center;
   }
+
+  .title-button {
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -54,3 +54,10 @@ body::before {
   font-weight: 400;
   font-style: normal;
 }
+
+.socials-spacing {
+  margin-top: 2rem; /* Adjust as needed */
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
