@@ -158,22 +158,24 @@ import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft';
 import TrapezoidTitleBarRight from './TrapezoidTitleBarRight';
 import HXLOZ from '../assets/hxloz.gif';
 import resume from '../assets/Inzunza_Haley_2025_Resume.pdf';
-import programming from '../assets/programming.png'; // Corrected path
-
+import programming from '../assets/programming.png'
+import technology from '../assets/technology.png'
 const about_selections = [
     {
-        title: "About Me",
-        description:  "Hi! I'm Haley Inzunza. I currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
-    },
-    {
         title: "My Programming Languages",
-        description: "I use programming languages like Python, JavaScript, C++, and more in my projects.",
+        description: "placeholder",
         image: programming, // Image is included
     }, 
     {
         title: "My Technologies",
-        description: "I work with technologies such as Docker, Kubernetes, and GCP to build scalable systems.",
+        description: "placeholder",
+        image: technology,
     }, 
+    {
+        title: "About Me",
+        description:  "Hi! I'm Haley Inzunza. I currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
+    },
+
 ];
 
 function Experience() {
@@ -191,16 +193,16 @@ function Experience() {
                     title={currentSelection.title} 
                     onButtonClick={handleSelection}
                 />
-                <div className="description-container w-full about-spacing">
+                <div className="description-container w-full about-spacing overflow-hidden">
                     <p className="text-black text-lg text-center">
                         {currentSelection.description}
                     </p>
-                    {currentSelection.image && (
-                        <div className="flex justify-center mt-4">
-                            <img src={currentSelection.image} alt={currentSelection.title} className="h-auto max-w-full" />
+                </div>
+                {currentSelection.image && (
+                        <div className="flex justify-center">
+                            <img src={currentSelection.image} alt={currentSelection.title} />
                         </div>
                     )}
-                </div>
                 {currentSelection.title === "About Me" && ( 
                     <div className="items-center">
                         <button className="nes-btn is-success text-white block">
