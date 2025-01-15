@@ -154,62 +154,11 @@ import React, { useState } from "react";
 import SAIC from '../assets/874px-SAIC_Logo.png';
 import SNAP from '../assets/file.png';
 import UCI from '../assets/uci3.png';
-import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft'
-import TrapezoidTitleBarRight from './TrapezoidTitleBarRight'
-import HXLOZ from '../assets/hxloz.gif'
-import resume from '../assets/Inzunza_Haley_2025_Resume.pdf'
-
-// Define your experience data as an array of objects
-const experiences = [
-    {
-        company: "SNAP, INC.",
-        title: "BACKEND SOFTWARE ENGINEER APPRENTICE - INFERENCE PLATFORM",
-        duration: "August 2024 - Present",
-        description: [
-            "As an apprentice on the Inference Platform team, I primarily focus on increasing observability efforts, optimizing debugging efficiency, and deploying and managing applications running on Kubernetes and GCP in our ML pipeline. Some examples of teams and ML models I work closely on are ad and feed recommendations, MyAI chatbot, and 'lens' filter ranking."
-        ],
-        skills: ["Golang", "Java", "Git", "Docker", "GCP", "Kubernetes"],
-        image: SNAP,
-        bgColor: "bg-[#F7D999]",
-        borderColor: "border-[#f66d1b]",
-    },
-    {
-        company: "SAIC",
-        title: "VISUALIZATION INTERN - MULTIMEDIA & GAME PROGRAMMING",
-        duration: "June 2023 - August 2023",
-        description: [
-            " At SAIC, I contributed extensively to the development of a multiplayer war-game tailored for the U.S. Space Force. My primary responsibility revolved around pioneering a cutting-edge pipeline, seamlessly integrating simulations of military assets into the game's framework. Our team achieved a groundbreaking milestone by successfully executing this approach and presented our findings and final project to our U.S. Space Force customers."
-        ],
-        skills: ["C++", "Unreal Engine", "Gitlab", "MATLAB"],
-        image: SAIC,
-        bgColor: "bg-[#DFF9D8]",
-        borderColor: "border-green-900",
-    },
-    {
-        company: "UCI",
-        title: "HEAD UNDERGRADUATE TA - DATA STRUCTURES & ALGORITHMS",
-        duration: "January 2022 - January 2024",
-        description: [
-            "I worked as the Head Undergraduate TA for ICS 46: Data Structures & Algorithms at my university. As the first undergraduate teaching assistant, I played a pivotal role in shaping the foundation of the class.My contribution extended beyond the conventional responsibilities, delving into the restructuring of lesson plans, homework assignments, and exam materials. Hosting targeted test review sessions became a cornerstone of my approach, catering to students striving to excel academically."
-        ],
-        skills: ["C++", "Valgrind", "Git", "Data Structures", "Algorithm Analysis", "Teaching", "Leadership"],
-        image: UCI,
-        bgColor: "bg-[#F7D999]",
-        borderColor: "border-[#f66d1b]",
-    },
-    {
-        company: "UCI",
-        title: "UNDERGRADUATE TA - DESIGN & ANALYSIS OF ALGORITHMS",
-        duration: "January 2023 - January 2024",
-        description: [
-            "I worked as an Undergraduate TA for CS 161: Design & Analysis of Algorithms at my university. I taught students how to analyze algorithms for time and space optimization, and identify and design advanced divide-and-conquer, dynamic programming, and greedy algorithms. Additionally, I hosted office hours to help students reach their academic objectives and graded both exams and homework for classes of 250+ people."
-        ],
-        skills: ["C++", "Algorithm Analysis", "Teaching", "Leadership"],
-        image: UCI,
-        bgColor: "bg-[#DFF9D8]",
-        borderColor: "border-green-900",
-    },
-];
+import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft';
+import TrapezoidTitleBarRight from './TrapezoidTitleBarRight';
+import HXLOZ from '../assets/hxloz.gif';
+import resume from '../assets/Inzunza_Haley_2025_Resume.pdf';
+import programming from '../assets/programming.png'; // Corrected path
 
 const about_selections = [
     {
@@ -218,13 +167,13 @@ const about_selections = [
     },
     {
         title: "My Programming Languages",
-        description: "placeholder",
+        description: "I use programming languages like Python, JavaScript, C++, and more in my projects.",
+        image: programming, // Image is included
     }, 
     {
         title: "My Technologies",
-        description: "placeholder",
+        description: "I work with technologies such as Docker, Kubernetes, and GCP to build scalable systems.",
     }, 
-
 ];
 
 function Experience() {
@@ -246,31 +195,36 @@ function Experience() {
                     <p className="text-black text-lg text-center">
                         {currentSelection.description}
                     </p>
-                </div>
-                {currentSelection.title === "About Me" && ( 
-                        <div className="items-center"> {/* Ensuring full width for the button container */}
-                            <button className="nes-btn is-success text-white block">
-                                More about my hobbies!
-                            </button>
+                    {currentSelection.image && (
+                        <div className="flex justify-center mt-4">
+                            <img src={currentSelection.image} alt={currentSelection.title} className="h-auto max-w-full" />
                         </div>
                     )}
+                </div>
+                {currentSelection.title === "About Me" && ( 
+                    <div className="items-center">
+                        <button className="nes-btn is-success text-white block">
+                            Fun hobbies!
+                        </button>
+                    </div>
+                )}
             </div>
-            <div id ="right" className = "flex flex-col justify-start items-center w-full">
-                <TrapezoidTitleBarLeft title="Haley Inzunza"/>
+            <div id="right" className="flex flex-col justify-start items-center w-full">
+                <TrapezoidTitleBarLeft title="Haley Inzunza" />
                 <div id="socials" className="socials-spacing">
                     <a href="https://github.com/haleeei">
-                        <i className= "nes-icon github is-large"></i>
+                        <i className="nes-icon github is-large"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/haley-inzunza-76033914a/">
-                        <i className= "nes-icon linkedin is-large"></i>
+                        <i className="nes-icon linkedin is-large"></i>
                     </a>
                     <a href={resume}>
                         <button className="nes-btn is-error text-white items-center">  
-                        RESUME
+                            RESUME
                         </button>
                     </a>
                 </div>
-                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-6"/>
+                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-6" />
             </div>
         </div>
     );
