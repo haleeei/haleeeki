@@ -158,22 +158,24 @@ import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft';
 import TrapezoidTitleBarRight from './TrapezoidTitleBarRight';
 import HXLOZ from '../assets/hxloz.gif';
 import resume from '../assets/Inzunza_Haley_2025_Resume.pdf';
-import programming from '../assets/programming.png'; // Corrected path
-
+import programming from '../assets/programming.png'
+import technology from '../assets/technology.png'
 const about_selections = [
     {
-        title: "About Me",
-        description:  "Hi! I'm Haley Inzunza. I currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
-    },
-    {
         title: "My Programming Languages",
-        description: "I use programming languages like Python, JavaScript, C++, and more in my projects.",
+        description: "placeholder",
         image: programming, // Image is included
     }, 
     {
         title: "My Technologies",
-        description: "I work with technologies such as Docker, Kubernetes, and GCP to build scalable systems.",
+        description: "placeholder",
+        image: technology,
     }, 
+    {
+        title: "About Me",
+        description:  "Hi! I'm Haley Inzunza. I currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
+    },
+
 ];
 
 function Experience() {
@@ -185,31 +187,34 @@ function Experience() {
     const currentSelection = about_selections[currentSelectionIndex];
 
     return (
-        <div id="experience" className="flex flex-row justify-center items-center mt-12">
-            <div id="left" className="flex flex-col justify-start items-center w-full">
-                <TrapezoidTitleBarRight 
-                    title={currentSelection.title} 
-                    onButtonClick={handleSelection}
-                />
-                <div className="description-container w-full about-spacing overflow-hidden">
-                    <p className="text-black text-lg text-center">
-                        {currentSelection.description}
-                    </p>
+        <div id="experience" className="flex flex-row justify-between items-center min-h-screen">
+            <div id="left" className="flex flex-col items-center w-full max-w-5xl  flex-1 h-[1000px]"> {/* Use flex-1 to ensure equal height */}
+                <div id='left-title-bar' className="w-full max-w-5xl  ">
+                    <TrapezoidTitleBarRight 
+                            title={currentSelection.title} 
+                            onButtonClick={handleSelection}
+                    />
                 </div>
+                <div id='left-contents' className="flex flex-col justify-evenly items-center h-full w-full">
+                <div className="description-container w-full about-spacing overflow-hidden">
+                        <p className="text-black text-lg text-center">
+                            {currentSelection.description}
+                        </p>
+                    </div>
                 {currentSelection.image && (
-                        <div className="flex justify-center">
-                            <img src={currentSelection.image} alt={currentSelection.title} />
+                            <img src={currentSelection.image} alt={currentSelection.title} width={"500px"}/>
+                        )}
+                    {currentSelection.title === "About Me" && ( 
+                        <div className="items-center">
+                            <button className="nes-btn is-success text-white block">
+                                Fun hobbies!
+                            </button>
                         </div>
                     )}
-                {currentSelection.title === "About Me" && ( 
-                    <div className="items-center">
-                        <button className="nes-btn is-success text-white block">
-                            Fun hobbies!
-                        </button>
-                    </div>
-                )}
+                </div>
+                
             </div>
-            <div id="right" className="flex flex-col justify-start items-center w-full">
+            <div id="right" className="flex flex-col justify-start items-center w-full max-w-5xl h-[1000px] flex-1"> {/* Use flex-1 to ensure equal height */}
                 <TrapezoidTitleBarLeft title="Haley Inzunza" />
                 <div id="socials" className="socials-spacing">
                     <a href="https://github.com/haleeei">
