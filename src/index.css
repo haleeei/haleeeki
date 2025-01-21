@@ -57,13 +57,13 @@ body::before {
 }
 
 .socials-spacing {
-  margin-top: 2rem; /* Adjust as needed */
+  margin-top: 1rem; /* Adjust as needed */
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 .about-spacing {
-  margin-top: 6rem; /* Adjust as needed */
+  margin-top: 2rem; /* Adjust as needed */
   display: flex;
   gap: 1rem;
   justify-content: center;

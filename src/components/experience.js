@@ -165,11 +165,13 @@ const about_selections = [
         title: "My Programming Languages",
         subtitle: "Other Languages",
         image: programming, // Image is included
+        data: ["MIPS Assembly", "C#", "Javascript"]
     }, 
     {
         title: "My Technologies",
+        subtitle: "Other Technologies",
         image: technology,
-        subtitle: "Other Technologies"
+        data: ["Unity Engine", "Jupyter Notebook","FMOD Studio"]
     }, 
     {
         title: "About Me",
@@ -192,9 +194,11 @@ function Experience() {
             <div id="left" className="flex flex-col items-center w-full max-w-5xl  flex-1 h-[1000px]"> {/* Use flex-1 to ensure equal height */}
                 <div id='left-title-bar' className="w-full max-w-5xl  ">
                     <TrapezoidTitleBarRight 
-                            title={currentSelection.title} 
-                            onButtonClick={handleSelection}
-                    />
+                            title={currentSelection.title}>
+                                <button className="title-button" onClick={handleSelection}>
+                                    >
+                                </button>
+                            </TrapezoidTitleBarRight>
                 </div>
                 <div id="left-contents" className="flex flex-col justify-evenly items-center h-full w-full">
                     {/* Description and Button Container */}
@@ -232,6 +236,17 @@ function Experience() {
                                 </button>
                             </div>
                         )}
+
+                        {currentSelection.data && (
+                            <div className= "text-black text-lg">
+                                <ul className="nes-list is-disc">
+                                    {currentSelection.data.map((skill, index) => (
+                                        <li key={index}>{skill}</li>
+                                    ) )}
+                                </ul>
+                            </div>
+
+                        )}
                     </div>
                 </div>
                             
@@ -251,7 +266,7 @@ function Experience() {
                         </button>
                     </a>
                 </div>
-                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-10"/>
+                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-20"/>
             </div>
         </div>
     );
