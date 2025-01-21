@@ -163,17 +163,18 @@ import technology from '../assets/technology.png'
 const about_selections = [
     {
         title: "My Programming Languages",
-        description: "placeholder",
+        subtitle: "Other Languages",
         image: programming, // Image is included
     }, 
     {
         title: "My Technologies",
-        description: "placeholder",
         image: technology,
+        subtitle: "Other Technologies"
     }, 
     {
         title: "About Me",
         description:  "Hi! I'm Haley Inzunza. I currently work as a junior backend software engineer at Snap, Inc. and graduated with a degree in Computer Science from UC Irvine in December of 2023. I have various technical interests in domains like AI, Computer Vision, and Game Development. When I'm not building software or learning new technologies, I enjoy playing video games, knitting, drawing and painting, film photography, and snowboarding.",
+        subtitle: "Extras"
     },
 
 ];
@@ -195,24 +196,45 @@ function Experience() {
                             onButtonClick={handleSelection}
                     />
                 </div>
-                <div id='left-contents' className="flex flex-col justify-evenly items-center h-full w-full">
-                <div className="description-container w-full about-spacing overflow-hidden">
-                        <p className="text-black text-lg text-center">
-                            {currentSelection.description}
-                        </p>
-                    </div>
-                {currentSelection.image && (
-                            <img src={currentSelection.image} alt={currentSelection.title} width={"500px"}/>
+                <div id="left-contents" className="flex flex-col justify-evenly items-center h-full w-full">
+                    {/* Description and Button Container */}
+                    <div 
+                        className="description-container w-full h-full p-4 rounded flex flex-col items-center justify-center" 
+                        style={{
+                            backgroundColor: "rgba(255, 255, 255, 0.65)",
+                            marginTop: "-5px", // Adjust this based on your TrapezoidTitleBarRight spacing
+                            borderTopLeftRadius: "0", 
+                            borderTopRightRadius: "0",
+                        }}
+                    >
+                        {currentSelection.description && (
+                            <p className="text-black text-lg text-center mb-4">
+                                {currentSelection.description}
+                            </p>
                         )}
-                    {currentSelection.title === "About Me" && ( 
-                        <div className="items-center">
-                            <button className="nes-btn is-success text-white block">
-                                Fun hobbies!
-                            </button>
+
+                        {/* Optional Image */}
+                        {currentSelection.image && (
+                            <img src={currentSelection.image} alt={currentSelection.title} width={"800px"} className="mb-4" />
+                        )}
+
+                        <div id='sub-title-left'>
+                            <TrapezoidTitleBarRight
+                                title={currentSelection.subtitle}
+                            />
                         </div>
-                    )}
+
+                        {/* Button */}
+                        {currentSelection.title === "About Me" && (
+                            <div className="flex justify-center mt-4">
+                                <button className="nes-btn is-success text-white">
+                                    Fun hobbies!
+                                </button>
+                            </div>
+                        )}
+                    </div>
                 </div>
-                
+                            
             </div>
             <div id="right" className="flex flex-col justify-start items-center w-full max-w-5xl h-[1000px] flex-1"> {/* Use flex-1 to ensure equal height */}
                 <TrapezoidTitleBarLeft title="Haley Inzunza" />
@@ -229,7 +251,7 @@ function Experience() {
                         </button>
                     </a>
                 </div>
-                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-6" />
+                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-10"/>
             </div>
         </div>
     );
