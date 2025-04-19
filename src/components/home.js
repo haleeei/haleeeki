@@ -124,7 +124,7 @@ function Home() {
           <p className="press-start-2p-regular text-center">
             Click here to begin.
           </p>
-          <Link to="/experience">
+          <Link to="/aboutme">
             <button className="nes-btn is-primary text-white center">  
               >
             </button>

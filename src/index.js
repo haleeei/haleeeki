@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/home.js';
-import Experience from './components/experience.js';
+import WorkExperience from './components/experience.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
+import AboutMe from './components/aboutme.js';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,7 +18,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path ="/" element={<Home/>} />
-        <Route path ="/experience" element={<Experience/>} />
+        <Route path ="/aboutme" element={<AboutMe/>} />
+        <Route path ="/experience" element={<WorkExperience/>} />
         <Route path ="/skills" element={<Skills/>} />
         <Route path ="/projects" element={<Projects/>} />
       </Routes>
