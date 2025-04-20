@@ -4,7 +4,7 @@ import wordle from '../assets/wordle.png';
 import { FiGithub } from "react-icons/fi";
 import { IoGameController } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-import { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
 const projects = [
   { 
@@ -79,6 +79,14 @@ function Projects() {
     setActiveDialog(index);
     dialogRefs.current[index]?.showModal();
   };
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden"; // disable scroll
+
+    return () => {
+        document.body.style.overflow = "auto"; // re-enable on unmount
+    };
+}, []);
 
   // Assign project indices to columns
   const left = [0, 1];    // Mesh Generator, Parkour AI

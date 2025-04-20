@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react"; // <-- add useEffect
 import TrapezoidTitleBarLeft from './TrapezoidTitleBarLeft';
 import TrapezoidTitleBarRight from './TrapezoidTitleBarRight';
 import HXLOZ from '../assets/hxloz.gif';
@@ -43,6 +43,16 @@ const about_selections = [
 
 function AboutMe() {
     const [currentSelectionIndex, setCurrentSelectionIndex] = useState(0);
+
+    useEffect(() => {
+        // Disable scroll
+        document.body.style.overflow = "hidden";
+
+        // Clean up: Re-enable scroll when component unmounts
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, []);
     const handleSelection = () => {
         setCurrentSelectionIndex((prevIndex) => (prevIndex + 1) % about_selections.length); 
     };
