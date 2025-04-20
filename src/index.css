@@ -95,3 +95,8 @@ body::before {
 .button-animate {
   animation: colorChange 2s ease-in-out infinite alternate; /* Increased duration and smooth easing */
 }
+
+.button-container {
+  display: flex;
+  gap: 50px;
+}
