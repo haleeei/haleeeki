@@ -2,18 +2,11 @@ import SAIC from '../assets/874px-SAIC_Logo.png'
 import UCI from '../assets/uci3.png'
 import snap from '../assets/snap.png'
 import { Link } from "react-router-dom";
-import React, { useEffect } from "react";
+import React from "react";
 
 
 
 function WorkExperience() {
-    useEffect(() => {
-        document.body.style.overflow = "hidden"; // disable scroll
-
-        return () => {
-            document.body.style.overflow = "auto"; // re-enable on unmount
-        };
-    }, []);
     return (
         <div>
             <div id="experience" className="button-container flex flex-row justify-center mt-10">
