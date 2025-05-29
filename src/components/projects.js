@@ -80,13 +80,6 @@ function Projects() {
     dialogRefs.current[index]?.showModal();
   };
 
-  useEffect(() => {
-    document.body.style.overflow = "hidden"; // disable scroll
-
-    return () => {
-        document.body.style.overflow = "auto"; // re-enable on unmount
-    };
-}, []);
 
   // Assign project indices to columns
   const left = [0, 1];    // Mesh Generator, Parkour AI

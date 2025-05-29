@@ -44,15 +44,6 @@ const about_selections = [
 function AboutMe() {
     const [currentSelectionIndex, setCurrentSelectionIndex] = useState(0);
 
-    useEffect(() => {
-        // Disable scroll
-        document.body.style.overflow = "hidden";
-
-        // Clean up: Re-enable scroll when component unmounts
-        return () => {
-            document.body.style.overflow = "auto";
-        };
-    }, []);
     const handleSelection = () => {
         setCurrentSelectionIndex((prevIndex) => (prevIndex + 1) % about_selections.length); 
     };
@@ -149,13 +140,13 @@ function AboutMe() {
                         </button>
                     </a>
                 </div>
-                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-20"/>
+                <img src={HXLOZ} alt="HXLOZ Icon" draggable={false} className="mt-10"/>
                 <Link to="/experience">
                     <button className="nes-btn is-warning text-white center">  
                     Work Experience
                     </button>
                 </Link>
-                <div className="mt-10">
+                <div className="mt-5">
                     <Link to="/projects">
                         <button className="nes-btn is-warning text-white center">  
                         Personal Projects
