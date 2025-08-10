@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-html, body{
-  height:100%;
-
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
@@ -17,10 +17,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assets/988882.jpg'); /* Adjust the path if needed */
+  
+  background-image: url('./assets/988882.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 code {
@@ -30,7 +33,7 @@ code {
 
 body::before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
