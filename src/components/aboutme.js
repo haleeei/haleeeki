@@ -10,8 +10,8 @@ const about_selections = [
         title: "About Me",
         description: (
             <>
-              Hi! I'm Haley Inzunza. I currently work as a <span className="text-blue-500">junior full stack software engineer</span> at <span className="text-blue-500">Snap, Inc. 
-              <span className="text-2xl">👻</span></span> on the Ads Manager platform. I graduated with a degree in 
+              Hi! I'm Haley Inzunza. I currently work as a <span className="text-blue-500"> software engineer</span> at <span className="text-blue-500">Snap, Inc. 
+              <span className="text-2xl">👻</span></span> on the Web Platform team. I graduated with a degree in 
               <span className="text-blue-500"> Computer Science</span> from <span className="text-blue-500">UC Irvine</span> in December of 2023. I have various technical interests in domains like 
               <span className="text-blue-500"> AI, Computer Vision, and Game Development</span>.
             </>
@@ -143,7 +143,7 @@ function AboutMe() {
                     <a href="https://www.linkedin.com/in/haley-inzunza-76033914a/">
                         <i className="nes-icon linkedin is-large"></i>
                     </a>
-                    <a href="/Inzunza_Haley_2025_Resume1.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/Inzunza_Haley_2025_Resume 8-9.pdf" target="_blank" rel="noopener noreferrer">
                         <button className="nes-btn is-error">  
                             RESUME
                         </button>
