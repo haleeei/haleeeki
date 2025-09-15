@@ -29,7 +29,7 @@ function WorkExperience() {
                         <ul className="text-center text-yellow-400">July 2025 - Present</ul>
                         <div className="mt-2 text-center">
                         I currently work as a <span className="text-green-500">Software Engineer</span> on the <span className="text-green-500">Web Platform team at Snap, Inc</span>.
-                        My responsibilities revolve around creating new and improved versions of customer facing experiences such as Snap.com, Snapchat for Business, and other web properties.
+                        My responsibilities revolve around creating new and improved features for customer facing experiences such as Snap.com, Snapchat for Business, and other web properties.
                         </div>
                     </div>
                     <div className="mt-10"></div>
