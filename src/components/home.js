@@ -1,8 +1,17 @@
+import { useRef } from "react";
 import { Link } from "react-router-dom";
+import click from "../assets/Retro8.mp3";
 
 import "nes.css/css/nes.min.css"
 
 function Home() {
+  const clickSoundRef = useRef(new Audio(click));
+
+  const playClickSound = () => {
+    clickSoundRef.current.currentTime = 0;
+    clickSoundRef.current.play().catch(() => {});
+  };
+
   return (
     <div id="home" className="flex flex-col justify-center items-center w-full h-screen">
       {/* Header */}
@@ -33,8 +42,11 @@ function Home() {
             Click here to begin.
           </p>
           <Link to="/aboutme">
-            <button className="nes-btn is-primary text-white center">  
-              >
+            <button 
+              className="nes-btn is-primary text-white center"
+              onClick={playClickSound}
+              >  
+              {">"}
             </button>
           </Link>
         </div>
