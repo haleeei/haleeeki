@@ -4,7 +4,6 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/home.js';
 import WorkExperience from './components/experience.js';
-import Skills from './components/skills.js';
 import Projects from './components/projects.js';
 import AboutMe from './components/aboutme.js';
 
@@ -20,7 +19,6 @@ root.render(
         <Route path ="/" element={<Home/>} />
         <Route path ="/aboutme" element={<AboutMe/>} />
         <Route path ="/experience" element={<WorkExperience/>} />
-        <Route path ="/skills" element={<Skills/>} />
         <Route path ="/projects" element={<Projects/>} />
       </Routes>
     </BrowserRouter>

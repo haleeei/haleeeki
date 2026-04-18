@@ -1,6 +1,6 @@
-import SAIC from '../assets/874px-SAIC_Logo.png'
-import UCI from '../assets/uci3.png'
-import snap from '../assets/snap.png'
+import SAIC from '../assets/Work Logos/874px-SAIC_Logo.png'
+import UCI from '../assets/Work Logos/uci3.png'
+import snap from '../assets/Work Logos/snap.png'
 import { Link } from "react-router-dom";
 import React from "react";
 

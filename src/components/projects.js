@@ -1,6 +1,6 @@
-import meshgen from '../assets/meshgenerator.gif';
-import detector from '../assets/detector.png';
-import wordle from '../assets/wordle.png';
+import meshgen from '../assets/personal-projects/meshgenerator.gif';
+import detector from '../assets/personal-projects/detector.png';
+import wordle from '../assets/personal-projects/wordle.png';
 import { FiGithub } from "react-icons/fi";
 import { IoGameController } from "react-icons/io5";
 import { Link } from 'react-router-dom';
