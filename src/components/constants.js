@@ -34,7 +34,6 @@ export const tabConfig = [
     { label: "About", color: "#e76e55" },
     { label: "Coding Languages", color: "#209cee" },
     { label: "Tools", color: "#f7d51d"},
-    { label: "Fun", color: "#04d115" }
 ];
 
 export const aboutTabs = [
@@ -47,6 +46,8 @@ export const aboutTabs = [
               Haley Inzunza has <span className="text-red-500"> 2 years of experience </span> as a <span className="text-red-500"> full stack software engineer</span>. 
               She graduated with a degree in <span className="text-red-500"> Computer Science </span> from <span className="text-red-500">UC Irvine</span> in December of 2023. 
               She has various technical interests in domains like <span className="text-red-500"> Computer Graphics, AI, Computer Vision, UI/UX, and Game Development.</span>
+              <br/><br/>
+              In her spare time, she likes snowboarding, judo, knitting, comic book collecting, and film photography.
             </>
           ),
         
@@ -60,8 +61,5 @@ export const aboutTabs = [
     {
         title: "Tools",
     }, 
-    {
-        title: "Fun",
 
-    }, 
 ];

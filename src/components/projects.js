@@ -4,7 +4,7 @@ import wordle from '../assets/personal-projects/wordle.png';
 import { FiGithub } from "react-icons/fi";
 import { IoGameController } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 
 const projects = [
   { 
@@ -72,7 +72,7 @@ const projects = [
 ];
 
 function Projects() {
-  const [activeDialog, setActiveDialog] = useState(null);
+  const [_activeDialog, setActiveDialog] = useState(null);
   const dialogRefs = useRef([]);
 
   const handleLearnMore = (index) => {

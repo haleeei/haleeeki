@@ -192,3 +192,24 @@ body::before {
   display: flex;
   gap: 50px;
 }
+
+.experience-stop-icon {
+  image-rendering: pixelated;
+  transition: filter 150ms ease, transform 150ms ease;
+  filter: drop-shadow(0 4px 0 rgba(0, 0, 0, 0.25));
+}
+
+.experience-stop-button:hover .experience-stop-icon,
+.experience-stop-button:focus-visible .experience-stop-icon,
+.experience-stop-icon.is-selected {
+  filter:
+    drop-shadow(2px 0 0 #f7d51d)
+    drop-shadow(-2px 0 0 #f7d51d)
+    drop-shadow(0 2px 0 #f7d51d)
+    drop-shadow(0 -2px 0 #f7d51d)
+    drop-shadow(2px 2px 0 #f7d51d)
+    drop-shadow(-2px 2px 0 #f7d51d)
+    drop-shadow(2px -2px 0 #f7d51d)
+    drop-shadow(-2px -2px 0 #f7d51d)
+    drop-shadow(0 4px 0 rgba(0, 0, 0, 0.35));
+}
