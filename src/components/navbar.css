@@ -1,0 +1,79 @@
+/* MAIN NAVBAR LAYOUT */
+#navbar {
+    display: flex;
+    justify-content: space-between; /* 👈 key fix */
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* LEFT SIDE (nav links) */
+  .nav-left {
+    display: flex;
+    gap: 3.5rem; /* 👈 controlled spacing */
+  }
+  
+  /* NAV LINKS */
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    transition: color 0.35s ease;
+  }
+  
+  .nav-item:hover {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .nav-item.active {
+    color: #ffd700;
+  }
+  
+  /* RIGHT SIDE (socials) */
+  #socials {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  /* OUTER WRAPPER (space from screen edges) */
+  .navbar-wrapper {
+    padding: 0.5rem 1.5rem;
+  }
+  
+  /* NES CONTAINER OVERRIDE */
+  .navbar-wrapper .nes-container {
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+
+  @media (max-width: 768px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+  
+    /* 👇 THIS is the real fix */
+    .nav-left {
+      flex-direction: column;   /* stack vertically */
+      gap: 0.75rem;
+      align-items: center;
+    }
+  
+    #socials {
+      gap: 0.5rem;
+    }
+  
+    .nav-item {
+      font-size: 0.75rem;
+    }
+  
+    #socials i {
+      transform: scale(2.5);
+    }
+  
+    #socials .nes-btn {
+      font-size: 0.6rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }

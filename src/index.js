@@ -8,6 +8,7 @@ import Projects from './components/projects.js';
 import AboutMe from './components/aboutme.js';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './components/layout.js';
 
 
 
@@ -17,9 +18,11 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path ="/" element={<Home/>} />
-        <Route path ="/aboutme" element={<AboutMe/>} />
-        <Route path ="/experience" element={<WorkExperience/>} />
-        <Route path ="/projects" element={<Projects/>} />
+        <Route element={<Layout/>}>
+          <Route path ="/aboutme" element={<AboutMe/>} />
+          <Route path ="/experience" element={<WorkExperience/>} />
+          <Route path ="/projects" element={<Projects/>} />
+        </Route>
       </Routes>
     </BrowserRouter>
 

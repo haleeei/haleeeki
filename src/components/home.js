@@ -18,36 +18,18 @@ function Home() {
           Portfolio Website
         </p>
       </div>
-
-      <div className="nes-container is-dark nes-box">
-        <h1 className="nes-text is-normal text-center">
-          <p className="note-text press-start-2p-regular">
-            NOTE:
-            <br />
-            Please open on a desktop
-            <br />
-            or laptop computer for the
-            <br />
-            best viewing experience.
-            <br />
-            <br />
-          </p>
-        </h1>
-
-        <div className="action-wrapper nes-text is-primary">
-          <p className="action-text press-start-2p-regular">
-            Click here to begin.
-          </p>
-
-          <Link to="/aboutme">
-            <button
-              className="nes-btn is-primary text-white button"
-              onClick={playClick}
-            >
-              {">"}
-            </button>
-          </Link>
-        </div>
+      <h1 className="note-text press-start-2p-bold">
+        Best experienced on desktop, fully accessible on mobile.
+      </h1>
+      <div className="action-wrapper nes-text is-primary">
+        <Link to="/aboutme">
+          <button
+            className="nes-btn is-warning text-white button"
+            onClick={playClick}
+          >
+            {"Enter Portfolio"}
+          </button>
+        </Link> 
       </div>
     </div>
   );

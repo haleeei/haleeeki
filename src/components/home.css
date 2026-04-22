@@ -5,8 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
     width: 100%;
     min-height: 100vh;
+  
     padding: 1rem;
   }
   
@@ -24,31 +26,20 @@
     line-height: 1.2;
   }
   
-  /* NES container sizing */
-  .nes-box {
-    width: 80%;
-    max-width: 500px;
-  }
-  
   /* Text styling */
-  .note-text {
+  .note-text.press-start-2p-bold {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem; /* 👈 slightly smaller */
     line-height: 1.6;
+    margin-top:.5rem;
   }
-  
+
   .action-wrapper {
     text-align: center;
-    margin-top: 1rem;
-  }
   
-  .action-text {
-    font-size: 0.9rem;
+    margin-top: 4rem;
   }
-  
-  .button {
-    margin-top: 0.75rem;
-  }
+
   
   /* ------------------ */
   /* Responsive Design  */
@@ -60,13 +51,8 @@
       font-size: 4rem;
     }
   
-    .note-text,
-    .action-text {
+    .note-text {
       font-size: 1.1rem;
-    }
-  
-    .nes-box {
-      max-width: 600px;
     }
   }
   
@@ -74,9 +60,5 @@
   @media (min-width: 1024px) {
     .title {
       font-size: 6rem;
-    }
-  
-    .nes-box {
-      max-width: 700px;
     }
   }
