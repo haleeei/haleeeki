@@ -303,7 +303,7 @@ function Projects() {
       </style>
 
       {/* ================= DESKTOP (UNCHANGED) ================= */}
-      <div className="hidden md:flex flex-row justify-between items-start">
+      <div className="hidden md:flex flex-row justify-center items-start gap-8">
         <div className="flex flex-col items-center max-w-5xl flex-1 mt-8 gap-y-8">
           {left.map(renderProject)}
         </div>
@@ -318,9 +318,12 @@ function Projects() {
       </div>
 
       {/* ================= MOBILE (NEW CLEAN STACK) ================= */}
-      <div className="flex flex-col gap-6 px-3 mt-6 md:hidden">
+      <div className="mt-6 flex flex-col items-center gap-6 px-3 md:hidden">
         {projects.map((project, index) => (
-          <div key={index} className="nes-container is-dark with-title w-full">
+          <div
+            key={index}
+            className="nes-container is-dark with-title mx-auto w-full max-w-[420px]"
+          >
             <p className="title text-sm">{project.title}</p>
 
             {project.media.type === "image" ? (

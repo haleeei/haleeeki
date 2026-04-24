@@ -1,4 +1,4 @@
-import SkillsRadar from "./skillsRadar";
+import { radarDisplay, skillsData, toolsData, toolsOptions } from "./radars";
 
 const aboutMeTable = (
     <div className="w-full overflow-x-auto">
@@ -87,11 +87,13 @@ export const aboutTabs = [
     {
         title: "Coding Languages",
         tabColor: "#209cee",
-        chart: <SkillsRadar />,
+        chart: radarDisplay(skillsData),
         
     }, 
     {
         title: "Tools",
+        tabColor: "#f7d51d",
+        chart: radarDisplay(toolsData, toolsOptions),
     }, 
 
 ];

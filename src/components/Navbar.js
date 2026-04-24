@@ -25,7 +25,7 @@ function Navbar() {
   <a href="https://www.linkedin.com/in/haley-inzunza-76033914a/">
     <i className="nes-icon linkedin is-medium"></i>
   </a>
-  <a href="/Inzunza_Haley_2025_Resume 8-9.pdf" target="_blank" rel="noopener noreferrer">
+  <a href="/Inzunza_Haley_2026_Resume.pdf" target="_blank" rel="noopener noreferrer">
     <button className="nes-btn is-error">Resume</button>
   </a>
 </div>

@@ -20,7 +20,7 @@ ChartJS.register(
     Legend,
 );
 
-const data = {
+export const skillsData = {
     labels: [
         'Typescript',
         'C++',
@@ -41,7 +41,28 @@ const data = {
     }]
 };
 
-const options = {
+export const toolsData = {
+  labels: [
+      ['Google', 'Cloud', 'Platform'],
+      'GraphQL',
+      ['Unreal', 'Engine'],
+      ['Unity', 'Engine'],
+      'Kubernetes'
+  ],
+  datasets: [{
+      data: [80, 70, 65, 50, 50],
+      pointBorderColor: '#f7d51d',
+      pointBackgroundColor: '#f7d51d',
+      borderColor: '#f7d51d',
+      backgroundColor: 'rgba(247, 213, 29, 0.32)',
+      lineWidth: 6,
+      fill: true,
+
+  }]
+};
+
+
+export const options = {
     scales: {
       r: {
         min: 0,
@@ -85,6 +106,25 @@ const options = {
     }
 };
 
-export default function SkillsRadar() {
-    return <Radar data={data} options={options}/>;
+export const toolsOptions = {
+    ...options,
+    scales: {
+        ...options.scales,
+        r: {
+            ...options.scales.r,
+            pointLabels: {
+                ...options.scales.r.pointLabels,
+                padding: 4,
+                font: {
+                    ...options.scales.r.pointLabels.font,
+                    size: 14,
+                    lineHeight: 1.1,
+                }
+            }
+        }
+    }
+};
+
+export function radarDisplay(chartData, chartOptions = options) {
+    return <Radar data={chartData} options={chartOptions} />;
 }

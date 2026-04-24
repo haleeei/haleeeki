@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { usePlayClickSound } from "./utils";
+import { usePlayClickSound } from "../utils";
 
 import "nes.css/css/nes.min.css";
 import "./home.css";

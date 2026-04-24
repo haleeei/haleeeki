@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from './components/home.js';
-import WorkExperience from './components/experience.js';
+import Home from './components/home/home.js';
+import WorkExperience from './components/work-experience/experience.js';
 import Projects from './components/projects.js';
-import AboutMe from './components/aboutme.js';
+import AboutMe from './components/about-me/aboutme.js';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './components/layout.js';

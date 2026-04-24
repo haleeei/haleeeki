@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import HXLOZ from '../assets/hxloz.gif';
-import { usePlayClickSound } from "./utils";
+import HXLOZ from './../../assets/hxloz.gif';
+import { usePlayClickSound } from "../utils";
 import { aboutTabs, tabConfig } from "./constants";
 
 /* ================= LEFT ================= */
@@ -94,7 +94,13 @@ function LeftSection({
 
                         {currentSelection.chart && (
                             <div className="w-full flex justify-center items-center py-4 md:py-5">
-                                <div className="w-full max-w-2xl">
+                                <div
+                                    className={`w-full ${
+                                        currentSelection.title === "Tools"
+                                            ? "max-w-[52rem]"
+                                            : "max-w-2xl"
+                                    }`}
+                                >
                                     {currentSelection.chart}
                                 </div>
                             </div>
