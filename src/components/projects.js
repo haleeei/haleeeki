@@ -71,7 +71,7 @@ const projects = [
 ];
 
 function Projects() {
-  const [ _, setActiveDialog] = useState(null);
+  const [, setActiveDialog] = useState(null);
   const dialogRefs = useRef([]);
 
   const handleLearnMore = (index) => {
